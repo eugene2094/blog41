@@ -1,0 +1,10 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+<h1>Your profile</h1>
+<img src="{{ profile_data.avatar }}">
+<p>First name: {{user.firstname}}</p>
+<p>First name: {{user.lastname}}</p>
+<p>First name: {{user.email}}</p>
+<p>User name: {{user.username}}</p>
+
+{% endblock %}
